@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.form {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form__checkbox {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form__span1 {
+    font-size: 50px;
+    margin-left: 500px;
+}
+
+.form__checkbox>label {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 500px;
+}
+
+.form__item1>span {
+    padding-left: 20px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.form__item2>span {
+    padding-left: 20px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.form__item3>span {
+    padding-left: 20px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.form__item4>span {
+    padding-left: 20px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.form__item5>span {
+    padding-left: 20px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.form__list {
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.box {
+    border-color: #ccc;
+}
+
+.form__checkbox>label>input {
+    appearance: none;
+}
+
+.form__checkbox>label>input:checked~span {
+    color: #ccc;
+}
+
+.form__checkbox>label>input:disabled~span {
+    color: #ccc;
+}
+
+.form__checkbox>label>input:disabled~div {
+    color: #ccc;
+}
+
+.form__item1>input:checked~div {
+    background-image: url(../img/facebook.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.form__item2>input:checked~div {
+    background-image: url(../img/instagram.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.form__item3>input:checked~div {
+    background-image: url(../img/telegram.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.form__item4>input:checked~div {
+    background-image: url(../img/whatsapp.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.form__btn {
+    margin-top: 50px;
+    color: #9e9e9e;
+    border-color: rgba(10, 75, 161, 0.575);
+    background-color: rgb(10, 76, 161);
+    margin-left: 700px;
+    padding: 12px 35px;
+    border-radius: 3px;
+    box-shadow: 0 5px 25px black;
+}
+
+.form__btn:hover {
+    content: "";
+    background-color: rgba(10, 75, 161, 0.616);
+}
